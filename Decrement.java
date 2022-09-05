@@ -7,7 +7,7 @@ class Main
     int a;
       System.out.println ("enter value of a");
       a = input.nextInt ();
-    ++a;
+    --a;
       System.out.println ("Increment of a is  " + a);
   }
 }
