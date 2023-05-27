@@ -1,18 +1,18 @@
-public class GCM {
-    static void gcm(int a,int b)
+public class GCD {
+    static void gcd_fun(int a,int b)
     {
-        int count=1,i;
+        int gcd=1,i;
         for(i=1;i<=a;i++)
         {
             if(a%i==0 && b%i==0)
             {
-                count=i;
+                gcd=i;
             }
         }
         
-        System.out.print("GCD is "+count);
+        System.out.print("GCD is "+gcd);
     }
     public static void main(String[] args) {
-        gcm(8,20);
+        gcd_fun(8,20);
     }
 }
