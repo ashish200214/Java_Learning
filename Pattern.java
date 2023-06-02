@@ -142,6 +142,36 @@ public class Pattern{
             System.out.println();
         }
     }
+    
+    static void pattern31()
+    {
+        int row,col,n=4;
+
+for(row=1;row<=n;row++)
+				{
+					for(col=1;col<=n;col++)
+					{
+						if(row == 1 || col == 1||col==n)
+							{
+								System.out.print("4 ");
+							}	
+						if(col==2 && row==2 ||row==2 && col==3)
+							{
+								System.out.print("3 ");
+							}
+						if(col==3 && row==3 || row==3 && col==2)
+							{
+								System.out.print("2 ");
+							}
+						if(col==2 && row==n || row==n && col==3)
+							{
+								System.out.print("1 ");
+							}
+					}
+					System.out.println();
+				}
+	}
+    }
 
     public static void main(String[]aegs)
     {
